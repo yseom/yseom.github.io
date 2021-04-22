@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<style>
+* {margin:0;padding:0}
+body{padding:20px;}
+a{position:relative;display:block;width:20px;height: 20px;}
+a.a1{background:blueviolet;}
+a.a2{background:skyblue;}
+span{
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  margin-left:-1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  font-size: 3px;
+  line-height: 0.5;
+}
+</style>
+
+<a class="a1" href="#"><span>버튼</span></a>
+<br>
+<a class="a2" href="#"><span>버튼</span></a>
+</body>
+</html>
