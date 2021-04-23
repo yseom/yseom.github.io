@@ -13,19 +13,25 @@ body{padding:20px;}
 a{position:relative;display:block;width:20px;height: 20px;overflow:hidden;}
 a.a2{background:blueviolet;}
 a.a1{background:skyblue;}
-span{
+span.offscreen{
     position: absolute;
     height: 1px;
     width: 1px;
+    margin:-1px;
     overflow: hidden;
     clip: rect(1px 1px 1px 1px);
-    font-size: 3px;
-    line-height: 0.5;
+    font-size: 1px;
 }
+.ico{position:absolute;top:0;left:0;text-indent:-9999px;overflow:hidden;}
 </style>
 
 <a href="https://www.facebook.com/idbins/" class="a1" target="_blank" title="새창열림" role="button"><span class="offscreen">DB손해보험 페이스북</span></a>
 <br>
-<a class="a2" href="#"><span>버튼2</span></a>
+<a class="a2" href="#" aria-expanded="true" aria-controls="paner-0">
+  <div>
+    <span>금융서비스 범위</span>
+  </div>
+  <span class="ico">내용닫기</span>
+ </a>
 </body>
 </html>
