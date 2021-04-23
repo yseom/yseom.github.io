@@ -14,19 +14,18 @@ a{position:relative;display:block;width:20px;height: 20px;overflow:hidden;}
 a.a1{background:blueviolet;}
 a.a2{background:skyblue;}
 span{
-  position: absolute;
-  top:0;left:0;
-  border:0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    font-size: 3px;
+    line-height: 0.5;
 }
 </style>
 
-<a class="a1" href="#"><span>버튼</span></a>
+<a class="a1" href="#" role="link"><span>버튼1</span></a>
 <br>
-<a class="a2" href="#"><em>버튼</em></a>
+<a class="a2" href="#"><span>버튼2</span></a>
 </body>
 </html>
