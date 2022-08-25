@@ -9,27 +9,15 @@
 <body>
 <style>
 * {margin:0;padding:0}
-.test1 input[type=radio], .test1 input[type=checkbox] {
-    width: 20px;
-    height: 20px;
-    accent-color: #218082;
-}
 </style>
 
-<div class="test1">
-  <input type="radio" id="persCollectAgree1" name="persCollectAgree" title="동의함" value="1" class="agreeY">
-  <label for="persCollectAgree1">동의함</label>
-</div>
-<br>
-<br>
-<br>
 <style>
-.test2 .input_radio input {
+.input_radio input {
     -webkit-appearance: none;
     -webkit-border-radius: 0;
     appearance: none;
     /* visibility: hidden; */
-    outline: 0;
+    /*outline: 0;*/
     position: absolute;
     overflow: hidden;
     border: 0;
@@ -40,23 +28,23 @@
     clip: rect(1px,1px,1px,1px);
     clip-path: inset(50%);
 }
-.test2 .input_radio input+label:before{display:inline-block;position:absolute;top:50%;left:0;width:20px;height:20px;margin-top:-10px;background:url(https://tcmbdb.dbins.net/images/common/bg_rad_default.png) left top no-repeat;background-size:20px 20px;content:""}
-.test2 .input_radio input:focus+label:before{outline:#000 dotted 1px;outline:-webkit-focus-ring-color auto 5px}
-.test2 .input_radio input:checked+label:before{background-image:url(https://tcmbdb.dbins.net/images/common/bg_rad_checked.png)}
-.test2 .input_radio input:checked:focus+label:before{outline:#000 dotted 1px;outline:-webkit-focus-ring-color auto 5px}
-.test2 .txt_13 {
+.input_radio input+label:before{display:inline-block;position:absolute;top:50%;left:0;width:20px;height:20px;margin-top:-10px;background:url(https://m.directdb.co.kr/images/common/bg_rad_default.png) left top no-repeat;background-size:20px 20px;content:""}
+.input_radio input:focus+label:before{outline:#000 dotted 1px;outline:-webkit-focus-ring-color auto 5px}
+.input_radio input:checked+label:before{background-image:url(https://m.directdb.co.kr/images/common/bg_rad_checked.png)}
+.input_radio input:checked:focus+label:before{outline:#000 dotted 1px;outline:-webkit-focus-ring-color auto 5px}
+.txt_13 {
     font-size: 13px !important;
 }
-.test2 .chk_calc_car.ty2 {
+.chk_calc_car.ty2 {
     display: block;
     position: relative;
     padding: 20px 20px 20px 85px;
 }
-.test2 .chk_calc_car label {
+.chk_calc_car label {
     display: block;
     padding: 0;
 }
-.test2 .chk_calc_car input+label:before {
+.chk_calc_car input+label:before {
     position: absolute;
     left: 95%;
 }
@@ -67,89 +55,10 @@
 		<label for="ra01">
 		  <em class="ico ico_carnum"></em>
 			<strong>자동차번호를 알고 있습니다.
-        <br><span class="txt_13">(번호판...)</span></strong>
+        <br><span class="txt_13">(번호판)</span></strong>
     </label>
   </span>
 </div>
-<br>
-<br>
-<br>
 
-<style>
-.test3 .product_item {
-    position: relative;
-    border: 1px solid #1973bf;
-    border-radius: 10px;
-}
-.test3 .product_item .checkbox {
-    position: absolute;
-    top: 24px;
-    right: 19px;
-    z-index: 1;
-}
-.test3 .radio {
-    position: relative;
-    display: inline-block;
-    min-width: 20px;
-    min-height: 20px;
-    vertical-align: middle;
-}
-.test3 input[type="radio"] {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    overflow: hidden;
-    padding: 0;
-    clip: rect(0,0,0,0);
-    -webkit-appearance: none;
-}
-.test3  .radio > input {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 20px;
-    height: 20px;
-    opacity: 0;
-    margin: 0;
-    z-index: 2;
-    clip: auto;
-    background-color: transparent;
-}
-
-.test3 .radio > i {
-    position: absolute;
-    left: 0;
-    top: 0;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border: 1px solid #c2c4c6;
-    background: #fff;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 50%;
-    vertical-align: top;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    z-index: 1;
-}
-.test3 .radio input:checked+i{background:#252525;border-color:#252525;}
-.test3 .product_item>label {
-    display: block;
-    position: relative;
-    padding: 21px 19px 25px 24px;
-}
-</style>
-<div class="test3 product_item">
-	<span class="radio">
-		<input type="radio" id="hpg_cust_chng_lit__plno_0" name="hpg_cust_chng_lit__plno" class="item_chk" value="320150767275"><i></i>
-	</span>
-	<label for="hpg_cust_chng_lit__plno_0">
-		<h3>연금저축손해보험</h3>
-		<span class="p_num">32015076****</span>						
-	</label>
-</div>
 </body>
 </html>
