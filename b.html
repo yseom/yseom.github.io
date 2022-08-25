@@ -58,7 +58,7 @@
 }
 .test2 .chk_calc_car input+label:before {
     position: absolute;
-    left: 100%;
+    left: 95%;
 }
 </style>
 <div class="test2">
@@ -94,6 +94,17 @@
     min-height: 20px;
     vertical-align: middle;
 }
+.test3 input[type="radio"] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    overflow: hidden;
+    padding: 0;
+    clip: rect(0,0,0,0);
+    -webkit-appearance: none;
+}
 .test3  .radio > input {
     position: absolute;
     left: 0;
@@ -106,17 +117,7 @@
     clip: auto;
     background-color: transparent;
 }
-.test3 input[type="radio"] {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    overflow: hidden;
-    padding: 0;
-    clip: rect(0,0,0,0);
-    -webkit-appearance: none;
-}
+
 .test3 .radio > i {
     position: absolute;
     left: 0;
