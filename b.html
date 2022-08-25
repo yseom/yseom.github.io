@@ -76,25 +76,25 @@
 <br>
 
 <style>
-.product_item {
+.test3 .product_item {
     position: relative;
     border: 1px solid #1973bf;
     border-radius: 10px;
 }
-.product_item .checkbox {
+.test3 .product_item .checkbox {
     position: absolute;
     top: 24px;
     right: 19px;
     z-index: 1;
 }
-.radio {
+.test3 .radio {
     position: relative;
     display: inline-block;
     min-width: 20px;
     min-height: 20px;
     vertical-align: middle;
 }
-.radio > input {
+.test3  .radio > input {
     position: absolute;
     left: 0;
     top: 0;
@@ -106,7 +106,7 @@
     clip: auto;
     background-color: transparent;
 }
-input[type="radio"] {
+.test3 input[type="radio"] {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -117,7 +117,7 @@ input[type="radio"] {
     clip: rect(0,0,0,0);
     -webkit-appearance: none;
 }
-.radio > i {
+.test3 .radio > i {
     position: absolute;
     left: 0;
     top: 0;
@@ -134,14 +134,14 @@ input[type="radio"] {
     transition: 0.3s;
     z-index: 1;
 }
-.radio input:checked+i{background:#252525;border-color:#252525;}
-.product_item>label {
+.test3 .radio input:checked+i{background:#252525;border-color:#252525;}
+.test3 .product_item>label {
     display: block;
     position: relative;
     padding: 21px 19px 25px 24px;
 }
 </style>
-<div class="product_item">
+<div class="test3 product_item">
 	<span class="radio">
 		<input type="radio" id="hpg_cust_chng_lit__plno_0" name="hpg_cust_chng_lit__plno" class="item_chk" value="320150767275"><i></i>
 	</span>
