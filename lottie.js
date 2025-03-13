@@ -3,5 +3,5 @@ let anmation = bodymovin.loadAnimation({
     renderer : 'svg',    
     loop : true,   
     autoplay : true,   
-    path : '/moweb/js/dsa/web_graphic.json', 
+    path : 'https://m.idbins.com/moweb/js/dsa/web_graphic.json', 
    });
